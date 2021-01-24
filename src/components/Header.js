@@ -12,7 +12,7 @@ function Header() {
     
     console.log(header)
     return (
-        <header className = 'header' style = {{backgroundSize : 'cover' , backgroundImage : `url("https://image.tmdb.org/t/p/original/${header?.backdrop_path}")` , backgroundPosition : 'center center' , backgroundRepeat : 'no-repeat'}}>
+        <header className = 'header' style = {{backgroundSize : 'cover' , backgroundImage : `url("https://image.tmdb.org/t/p/original/${header?.backdrop_path}")` , backgroundPosition : 'center center' , backgroundRepeat : 'no-repeat' , backgroundAttachment : 'fixed'}}>
             <div className="header__content">
                 <h1 className = 'header__title'>
                     {header?.title || header?.name || header?.original_name}

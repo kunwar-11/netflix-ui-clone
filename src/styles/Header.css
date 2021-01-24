@@ -1,8 +1,7 @@
 .header{
     object-fit: contain;
     color: white;
-    height: 460px;
-    padding: 7rem 0rem 5rem 0;
+    height: 100%;
     margin-bottom: 1.2rem;
 }
 .header__content {
